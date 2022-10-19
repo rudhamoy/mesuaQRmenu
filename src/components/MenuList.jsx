@@ -2,15 +2,16 @@ import React from 'react'
 
 const MenuList = () => {
   return (
-    <div className="">
+    <div className="h-[100vh] p-4">
         <div>
-            <h1>Starter</h1>
-            <ul className="list-disc">
-                <li className="grid grid-cols-2">
-                    <span>Tandoori Chicken</span>
-                    <span>₹ 260/480</span>
-                </li>
-            </ul>
+           <ul className="list-disc leading-10 w-full">
+           <li className="border-b mt-6">Starter</li>
+            <li className="border-b mt-6">Noodles</li>
+            <li className="border-b mt-6">Rice</li>
+            <li className="border-b mt-6">Indian Curry</li>
+            <li className="border-b mt-6">Chinese</li>
+            <li className="border-b mt-6">Beverages</li>
+           </ul>
         </div>
     </div>
   )
