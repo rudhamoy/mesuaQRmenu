@@ -15,17 +15,17 @@ const MenuList = () => {
       };
 
     return (
-        <div className="h-[100vh] p-4">
+        <div className="p-4">
                 <ul className="list-disc leading-10 w-full">
                     <li className="border-b mt-6 cursor-pointer" onClick={() => setShowStarter(!showStarter)}>Starter</li>
                     {showStarter === true && (
                        <>
                         <li className="px-2 grid grid-cols-3">
-                            <span className="col-span-2">Tandoor Chicken</span>
+                            <span className="col-span-2">Tandoori Chicken</span>
                             <span>₹ 260/480</span>
                         </li>
                         <li className="px-2 grid grid-cols-3">
-                            <span className="col-span-2">Pork Rib</span>
+                            <span className="col-span-2">Pork Ribs</span>
                             <span>₹ 330/-</span>
                         </li>
                         <li className="px-2 grid grid-cols-3">
@@ -88,7 +88,7 @@ const MenuList = () => {
                     {showCurry === true && (
                        <>
                         <li className="px-2 grid grid-cols-2">
-                            <span>Aloo Matar Panner</span>
+                            <span>Aloo Matar Paneer</span>
                             <span>₹ 160/-</span>
                         </li>
                         <li className="px-2 grid grid-cols-2">
@@ -105,15 +105,15 @@ const MenuList = () => {
                     {showChinese === true && (
                        <>
                         <li className="px-2 grid grid-cols-2">
-                            <span>Chili Panner</span>
+                            <span>Chilli Paneer</span>
                             <span>₹ 180/-</span>
                         </li>
                         <li className="px-2 grid grid-cols-2">
-                            <span>Chili Chicken</span>
+                            <span>Chilli Chicken</span>
                             <span>₹ 200/-</span>
                         </li>
                         <li className="px-2 grid grid-cols-2">
-                            <span>Chili Pork</span>
+                            <span>Chilli Pork</span>
                             <span>₹ 220/-</span>
                         </li>
                        </>
@@ -122,16 +122,20 @@ const MenuList = () => {
                     {showBev === true && (
                        <>
                         <li className="px-2 grid grid-cols-2">
-                            <span>Veg Noodles</span>
+                            <span>Non-virgin</span>
                             <span>₹ 140/-</span>
                         </li>
                         <li className="px-2 grid grid-cols-2">
-                            <span>Chicken Noodles</span>
-                            <span>₹ 180/-</span>
+                            <span>Margarita</span>
+                            <span>₹ 120/-</span>
                         </li>
                         <li className="px-2 grid grid-cols-2">
-                            <span>Pork Noodles</span>
-                            <span>₹ 200/-</span>
+                            <span>Sea Attach</span>
+                            <span>₹ 150/-</span>
+                        </li>
+                        <li className="px-2 grid grid-cols-2">
+                            <span>Pink Colado</span>
+                            <span>₹ 100/-</span>
                         </li>
                        </>
                     )}
