@@ -15,7 +15,7 @@ const MenuList = () => {
       };
 
     return (
-        <div className="h-[100%] p-4">
+        <div className="h-[100vh] p-4">
                 <ul className="list-disc leading-10 w-full">
                     <li className="border-b mt-6 cursor-pointer" onClick={() => setShowStarter(!showStarter)}>Starter</li>
                     {showStarter === true && (
