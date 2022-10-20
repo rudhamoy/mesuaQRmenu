@@ -9,6 +9,7 @@ const MenuList = () => {
     const [showCurry, setShowCurry] = useState(false)
     const [showChinese, setShowChinese] = useState(false)
     const [showBev, setShowBevv] = useState(false)
+    const [showThali, setShowThali] = useState(false)
 
     const onChange = (key) => {
         console.log(key);
@@ -136,6 +137,35 @@ const MenuList = () => {
                         <li className="px-2 grid grid-cols-2">
                             <span>Pink Colado</span>
                             <span>₹ 100/-</span>
+                        </li>
+                       </>
+                    )}
+                    <li className="border-b mt-6 cursor-pointer" onClick={() => setShowThali(!showThali)}>Tripuri Thali</li>
+                    {showThali === true && (
+                       <>
+                        <li className="px-2 grid grid-cols-2">
+                            <span>Steam Rice</span>
+                        </li>
+                        <li className="px-2 grid grid-cols-2">
+                            <span>Gudok</span>
+                        </li>
+                        <li className="px-2 grid grid-cols-2">
+                            <span>Chakhwi</span>
+                        </li>
+                        <li className="px-2 grid grid-cols-2">
+                            <span>Wahan Mosodeng</span>
+                        </li>
+                        <li className="px-2 grid grid-cols-2">
+                            <span>Tohan Pengjak</span>
+                        </li>
+                        <li className="px-2 grid grid-cols-2">
+                            <span>Papad</span>
+                        </li>
+                        <li className="px-2 grid grid-cols-2">
+                            <span>Salad</span>
+                        </li>
+                        <li className="px-2 grid grid-cols-2">
+                            <span className="text-xl font-semibold">only @ ₹180/-</span>
                         </li>
                        </>
                     )}
