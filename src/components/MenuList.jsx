@@ -105,16 +105,16 @@ const MenuList = () => {
                     {showChinese === true && (
                        <>
                         <li className="px-2 grid grid-cols-2">
-                            <span>Veg Noodles</span>
-                            <span>₹ 140/-</span>
-                        </li>
-                        <li className="px-2 grid grid-cols-2">
-                            <span>Chicken Noodles</span>
+                            <span>Chili Panner</span>
                             <span>₹ 180/-</span>
                         </li>
                         <li className="px-2 grid grid-cols-2">
-                            <span>Pork Noodles</span>
+                            <span>Chili Chicken</span>
                             <span>₹ 200/-</span>
+                        </li>
+                        <li className="px-2 grid grid-cols-2">
+                            <span>Chili Pork</span>
+                            <span>₹ 220/-</span>
                         </li>
                        </>
                     )}
