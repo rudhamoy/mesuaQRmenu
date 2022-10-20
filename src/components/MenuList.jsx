@@ -131,7 +131,7 @@ const MenuList = () => {
                             <span>₹ 120/-</span>
                         </li>
                         <li className="px-2 grid grid-cols-2">
-                            <span>Sea Attach</span>
+                            <span>Sea Attack</span>
                             <span>₹ 150/-</span>
                         </li>
                         <li className="px-2 grid grid-cols-2">
