@@ -72,15 +72,15 @@ const MenuList = () => {
                     {showRice === true && (
                        <>
                         <li className="px-2 grid grid-cols-2">
-                            <span>Veg</span>
+                            <span>Veg Fried Rice</span>
                             <span>₹ 140/-</span>
                         </li>
                         <li className="px-2 grid grid-cols-2">
-                            <span>Chicken</span>
+                            <span>Chicken Fried Rice</span>
                             <span>₹ 180/-</span>
                         </li>
                         <li className="px-2 grid grid-cols-2">
-                            <span>Pork</span>
+                            <span>Pork Fried Rice</span>
                             <span>₹ 200/-</span>
                         </li>
                        </>
@@ -123,8 +123,8 @@ const MenuList = () => {
                     {showBev === true && (
                        <>
                         <li className="px-2 grid grid-cols-2">
-                            <span>Non-virgin</span>
-                            <span>₹ 140/-</span>
+                            <span>Non-virgin Mojito</span>
+                            <span>₹ 100/-</span>
                         </li>
                         <li className="px-2 grid grid-cols-2">
                             <span>Margarita</span>
